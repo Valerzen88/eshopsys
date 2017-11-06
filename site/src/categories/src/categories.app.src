@@ -1,0 +1,12 @@
+{application, categories,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { categories_app, []}},
+  {env, []}
+ ]}.

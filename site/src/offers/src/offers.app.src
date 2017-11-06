@@ -1,0 +1,12 @@
+{application, offers,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { offers_app, []}},
+  {env, []}
+ ]}.

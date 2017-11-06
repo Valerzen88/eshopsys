@@ -1,0 +1,12 @@
+{application, carts,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { carts_app, []}},
+  {env, []}
+ ]}.
